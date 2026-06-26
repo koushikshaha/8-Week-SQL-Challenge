@@ -4,6 +4,14 @@
 
  use dannys_diner;
 
+ DESCRIBE sales;
+DESCRIBE menu;
+DESCRIBE members;
+
+SELECT * FROM sales;
+SELECT * FROM menu;
+SELECT * FROM members;
+
 -- 1. What is the total amount each customer spent at the restaurant?
 
 select
